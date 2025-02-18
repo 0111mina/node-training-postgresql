@@ -1,7 +1,7 @@
 {
   "name": "db-migrate-startkit",
   "version": "1.0.0",
-  "description": "",
+  "description": "## 功能",
   "main": "index.js",
   "scripts": {
     "start": "docker compose --env-file .env up -d --build",
@@ -19,5 +19,6 @@
   "license": "ISC",
   "jest": {
     "testTimeout": 10000
-  }
+  },
+  "devDependencies": {}
 }
